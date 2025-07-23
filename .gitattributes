@@ -1,0 +1,8 @@
+# 对所有文本文件应用自动换行符转换
+* text=auto
+
+# 强制 Vue 文件使用 LF 换行符
+*.vue text eol=lf
+
+# 强制 Windows 批处理文件使用 CRLF 换行符
+*.bat text eol=crlf
