@@ -13,7 +13,6 @@
             'dialog-item-ai': item.role === 'ai',
           }"
         >
->>>>>>> 2decf80 (new)
           <div class="dialog-item-main">{{ item.text }}</div>
         </div>
       </template>
@@ -61,7 +60,6 @@
       <Typography class="ivu-text-center ivu-m">
         Powered By <img src="./assets/logo.png" class="logo" />
         <a href="https://inscode.net" target="_blank">InsCode.net</a>
->>>>>>> 2decf80 (new)
       </Typography>
     </div>
   </div>
@@ -73,7 +71,6 @@ import { apiKey, apiUrl } from './api';
 =======
 import { fetchEventSource } from "@microsoft/fetch-event-source";
 import { apiKey, apiUrl } from "./api";
->>>>>>> 2decf80 (new)
 
 export default {
   data() {
@@ -213,4 +210,3 @@ export default {
   top: -1px;
 }
 </style>
->>>>>>> 2decf80 (new)
