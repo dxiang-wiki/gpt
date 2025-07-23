@@ -7,5 +7,3 @@ run = "npm run preview"
 
 [debugger]
 program = "main.js"
-
-
