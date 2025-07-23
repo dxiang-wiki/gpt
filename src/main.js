@@ -5,7 +5,7 @@ import App from './App.vue';
 import 'view-ui-plus/dist/styles/viewuiplus.css';
 import './assets/main.css';
 
-const app = createApp(App)
+const app = createApp(App);
 
 app.use(ViewUIPlus)
-    .mount('#app')
+    .mount('#app');
