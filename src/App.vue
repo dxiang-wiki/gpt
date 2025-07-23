@@ -28,18 +28,16 @@
             icon="md-send"
             :loading="loading"
             @click="handleSend"
-            >发送</Button
-          >
+            >发送</Button>
         </Col>
         <Col>
-          <Button
+        <Button
             size="large"
             class="ivu-ml"
             icon="md-add"
             :disabled="loading"
             @click="handleNewChat"
-            >新对话</Button
-          >
+            >新对话</Button>
         </Col>
       </Row>
       <Typography class="ivu-text-center ivu-m">

@@ -1,5 +1,8 @@
-run = "npm i -f && npm run dev"
+run = "npm run dev"
 language = "node"
+is_html = false
+is_resident = true
+is_gui = false
 
 [deployment]
 build = "npm i -f && npm run build"
