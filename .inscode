@@ -1,0 +1,11 @@
+run = "npm i -f && npm run dev"
+language = "node"
+
+[deployment]
+build = "npm i -f && npm run build"
+run = "npm run preview"
+
+[debugger]
+program = "main.js"
+
+
